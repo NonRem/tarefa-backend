@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Thomas\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemon -D
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Thomas\AppData\Local\Microsoft\WindowsApps;;C:\Users\Thomas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Thomas\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: 9972:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:c:\ws\deps\openssl\openssl\ssl\record\ssl3_record.c:677:
+
+npm manifest: 
+  {
+     "name": "backend",
+     "version": "0.0.1",
+     "description": "Awesome project developed with TypeORM.",
+     "devDependencies": {
+        "ts-node": "3.3.0",
+        "@types/node": "^8.0.29",
+        "typescript": "3.3.3333"
+     },
+     "dependencies": {
+        "typeorm": "0.2.37",
+        "reflect-metadata": "^0.1.10",
+        "pg": "^8.4.0",
+        "express": "^4.15.4",
+        "body-parser": "^1.18.1"
+     },
+     "scripts": {
+        "dev" : "nodemon src/index.ts",
+        "start": "ts-node src/index.ts"
+     }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
